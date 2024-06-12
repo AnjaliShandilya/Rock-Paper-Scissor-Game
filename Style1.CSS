@@ -56,3 +56,32 @@ img{
     border-radius: 1rem;
     padding: 1rem;
 }
+@media ( max-width:600px){
+    .choice{
+        height: 80px;
+        width: 80px;
+        border: 1px;
+    }
+    *{
+        font-size: 1rem;
+    }
+    .choice:hover{
+        background-color: white;
+    }
+    img{
+        height: 50px;
+        width: 50px;
+        border: 1px;
+    }
+    .score-bord{
+        size: 90px;
+    }
+    #msg{
+        font-size: 1rem;
+    }
+    .msg-container{
+        margin-top: 20px;
+        size: 30px;
+    }
+
+}
